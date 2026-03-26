@@ -75,4 +75,5 @@ model Generation {
 
   @@index([orgId])
   @@index([voiceId])
+  
 }
