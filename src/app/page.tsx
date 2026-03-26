@@ -1,10 +1,12 @@
+"use client";
+
 import { Button } from "@/components/ui/button";
-import React from "react";
+import { toast } from "sonner";
 
 const page = () => {
   return (
     <div>
-      <Button>CLick me </Button>
+      <Button onClick={() => toast.success("Wawiwoo!!")}>CLick me </Button>
     </div>
   );
 };
